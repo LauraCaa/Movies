@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  movies:
+    build: .
+    ports:
+      - "5173:5173"
+    volumes:
+      - ".:/opt/movies"
+    stdin_open: true
+    tty: true
