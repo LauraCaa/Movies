@@ -40,11 +40,11 @@ src/
 ## 🧪 How to Run Locally
 1. Clone the repository:
 ```bash
+2. Navigate to the project folder:
 git clone https://github.com/your-username/movie-app.git
 
-2. Navigate to the project folder:
-cd movie-app
 3. Install dependencies:
 npm install
+
 4. Start the development server:
 npm run dev
