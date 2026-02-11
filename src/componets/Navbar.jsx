@@ -15,7 +15,7 @@ function Navbar() {
       
       <div className="flex items-center gap-10">
         <Link to="/" className="text-2xl font-black tracking-tighter text-mabi-orange italic cursor-pointer">
-          MABI
+          LAMI
         </Link>
         
         <ul className="flex items-center gap-8 text-[11px] font-bold uppercase tracking-[0.2em]">
