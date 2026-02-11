@@ -1,14 +1,6 @@
-*{
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  text-decoration: none;
-  box-sizing: border-box;
-  font-family: sans-serif;
-}
-.active{
-  padding: 7px;
-  border: 1px solid red;
-  border-radius: 5px;
-  background-color: red;
+@import "tailwindcss";
+
+/* Esto es para que el fondo siempre sea oscuro como en la imagen */
+body {
+  @apply bg-[#050505] text-white antialiased;
 }
